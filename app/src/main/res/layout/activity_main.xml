@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF0000"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
@@ -21,42 +22,54 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCrearCocheMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:backgroundTint="#05FA0B"
+        android:backgroundTintMode="add"
+        android:text="Crear Coche"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconGravity="textStart" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/lblCantidadMotosMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="TextView"
+        android:text="Motos: 0"
         android:textAlignment="center"
         android:textColor="#ECF407"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnCrearMotoMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:backgroundTint="#05FA0B"
+        android:backgroundTintMode="add"
+        android:text="CREAR MOTO"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconGravity="textStart" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/lblCantidadBicisMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="TextView"
+        android:text="Bicis: 0"
         android:textAlignment="center"
         android:textColor="#ECF407"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnCrearBiciMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:backgroundTint="#05FA0B"
+        android:backgroundTintMode="add"
+        android:text="CREAR BICI"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconGravity="textStart" />
 </LinearLayout>
